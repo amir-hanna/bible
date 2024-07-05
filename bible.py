@@ -13,10 +13,10 @@ def get_verses(db_path, book, chapter, verse_start, verse_end):
     return [verse['text'] for verse in verses]
 
 def print_usage():
-    print("Usage: python script_name.py book chapter:verse")
-    print("or: python script_name.py book chapter:verse-verse")
-    print("Example: python script_name.py Proverbs 2:4")
-    print("Example: python script_name.py Proverbs 2:4-6")
+    print("Usage: python bible.py book chapter:verse")
+    print("or: python bible.py book chapter:verse-verse")
+    print("Example: python bible.py Proverbs 2:4")
+    print("Example: python bible.py Proverbs 2:4-6")
 
 def main():
     # Check if the correct number of arguments are provided
